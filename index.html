@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="fundo">
+        <section class="calculadora">
+
+            <input disabled id="valores">
+
+            <button onclick="apagar()" class="item dark">AC</button>
+            <button onclick="negpos()" class="item dark">+/-</button>
+            <button onclick="porcent()" class="item dark">%</button>
+            <button onclick="mostrar('/')" class="item clean">/</button>
+
+            <button onclick="mostrar('7')" class="item">7</button>
+            <button onclick="mostrar('8')" class="item">8</button>
+            <button onclick="mostrar('9')" class="item">9</button>
+            <button onclick="mostrar('*')" class="item clean">X</button>
+
+            <button onclick="mostrar('4')" class="item">4</button>
+            <button onclick="mostrar('5')" class="item">5</button>
+            <button onclick="mostrar('6')" class="item">6</button>
+            <button onclick="mostrar('-')" class="item clean">-</button>
+
+            <button onclick="mostrar('1')" class="item">1</button>
+            <button onclick="mostrar('2')" class="item">2</button>
+            <button onclick="mostrar('3')" class="item">3</button>
+            <button onclick="mostrar('+')" class="item clean">+</button>
+
+            <button onclick="mostrar('0')" class="item zero">0</button>
+            <button onclick="mostrar(',')" class="item">,</button>
+            <button onclick="result()" class="item clean">=</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
